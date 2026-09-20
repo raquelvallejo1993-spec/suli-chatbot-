@@ -123,6 +123,16 @@ def aplicar_estilo_suli():
         border: 1.5px solid var(--suli-verde) !important;
         border-radius: 12px !important;
     }
+    [data-testid="stChatInput"] textarea {
+        color: var(--suli-texto) !important;
+        background-color: #FFFFFF !important;
+        -webkit-text-fill-color: var(--suli-texto) !important;
+    }
+    [data-testid="stChatInput"] textarea::placeholder {
+        color: #8A8F87 !important;
+        -webkit-text-fill-color: #8A8F87 !important;
+        opacity: 1 !important;
+    }
 
     .stButton > button, [data-testid="baseButton-secondary"] {
         background-color: var(--suli-terracota) !important;
